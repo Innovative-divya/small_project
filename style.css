@@ -1,0 +1,79 @@
+body {
+    background-color:#151522;
+    overflow: hidden;
+      display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  body,
+  html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  svg{
+    width:90%;
+    height:90%;
+    visibility:hidden;
+   
+  }
+h1 {
+    position: absolute;
+    color: #f8f4f4;
+    top: 85%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 41%;
+    /* animation: texts 5s linear infinite; */
+}
+/*}.textt {
+    position: absolute;
+    animation: texts 5s linear infinite;
+}h2.text1 {
+    color: antiquewhite;
+    left: 1%;
+    font-size: 6em;
+    top: 43%;
+}h2.text2 {
+    color: antiquewhite;
+    left: 61%;
+    font-size: 5em;
+    top: 43%;
+    // backface-visibility: hidden; 
+}
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    /* background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(61, 60, 60, 1) 35%, rgba(0, 0, 0, 1) 51%, rgba(0, 0, 0, 1) 100%); */
+    /* perspective: 1000px; */
+    /* transform-style: preserve-3d; */
+
+
+span.shons {
+    position: absolute;
+    width: 7px;
+    height: 5px;
+    background: rgb(250, 250, 250);
+    top: 67px;
+    border-radius: 50%;
+    animation: falls linear infinite;
+}
+@keyframes falls {
+    0% {
+        top: 0%;
+    }
+    100% {
+        top: 100%;
+    }
+}
+  
+/*.sparkle{
+    /* mix-blend-mode:luminosity */
+  
